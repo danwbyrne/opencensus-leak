@@ -11,5 +11,5 @@ I believe the problem is confined to `internal/cls`, 2 of these tests trigger th
 for deeper investigation with chrome-debugger you can run
 
 ```
-node --inspect /node_modules/.bin/jest --config jest.config.js --runInBand --detectLeaks
+node --inspect /node_modules/.bin/jest --config jest.config.js --runInBand --logHeapUsage
 ```
