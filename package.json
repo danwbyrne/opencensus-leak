@@ -1,0 +1,19 @@
+{
+  "name": "opencensus-leak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@opencensus/core": "^0.0.16"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "3.4.3",
+    "weak":"^1.0.1"
+  },
+  "scripts": {
+    "test": "yarn run jest --config jest.config.js --runInBand --detectLeaks"
+  }
+}
